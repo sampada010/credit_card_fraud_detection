@@ -1,4 +1,4 @@
-# credit_card_fraud_detection
+# Credit Card Fraud Detection
 This project focuses on detecting fraudulent credit card transactions using four different classification algorithms.
 
 ## Overview
@@ -27,3 +27,21 @@ A Decision Tree is a model that splits data into smaller subsets based on the mo
 
 # 4. Naive Bayes Classifier
 Naive Bayes is a probabilistic classifier based on Bayes' theorem. It assumes independence between features, making it a fast and efficient algorithm.
+
+## Usage
+
+### 1. Run the Jupyter Notebook:
+Open a terminal and run:
+jupyter notebook
+
+### 2. Visualizations
+The notebook contains various visualizations to help understand the performance of each algorithm, including feature importance plots, confusion matrices, and ROC curves.
+
+## Evaluation Metrics
+We evaluate the models based on the following metrics:
+
+Accuracy: The percentage of correct predictions.
+Precision: The proportion of positive identifications that are correct.
+Recall: The proportion of actual positives that were correctly classified.
+F1-Score: The harmonic mean of precision and recall.
+AUC-ROC: The area under the ROC curve, which measures the ability of the classifier to distinguish between fraud and non-fraud.
